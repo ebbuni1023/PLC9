@@ -1,0 +1,22 @@
+2. Write test programs in C++, Java, and C to determine the scope of a variable declared in a
+for statement. Specifically, the code must determine whether such a variable is visible after the body of
+the for statement.
+
+C++:
+The result which is 48 is printed out. It means the inside of the variable is visible after the body of 
+the for statement.
+
+C:
+The result which is 48 is printed out. It means the inside of the variable is visible after the body of 
+the for statement.
+
+java:
+TestProgram.java:9: error: variable x might not have been initialized
+            x += i;
+            ^
+TestProgram.java:12: error: variable x might not have been initialized
+        System.out.println(x);
+                           ^
+-> I got errors in line 9 and 12 which is saying that varialbe x is not initialized.
+It means the variable x declared inside for loop doesn't has scope outside the for loop so a variable is not visible after the
+body of the for statement.

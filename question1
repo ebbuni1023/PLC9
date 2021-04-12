@@ -1,0 +1,25 @@
+1. Write a C function that includes the following sequence of statements:
+x = 21;
+int x;
+x = 42;
+Run the program and explain the results. Rewrite the same code in C++, and Java and compare the
+results
+
+Ans)
+C:
+Cfunction.c:4:5: error: use of undeclared identifier 'x'
+    x = 21;
+    ^
+
+C++:
+Cfunction.cpp:6:5: error: use of undeclared identifier 'x'
+    x = 21;
+    ^
+
+Java:
+Cfunction.java:3: error: cannot find symbol
+        x = 21;
+        ^
+  symbol:   variable x
+
+Since we didn't didn't declare x at each line so we got an error that they can't find identifier x for c, c++, java.
