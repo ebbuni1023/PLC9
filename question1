@@ -22,4 +22,4 @@ Cfunction.java:3: error: cannot find symbol
         ^
   symbol:   variable x
 
-Since we didn't didn't declare x at each line so we got an error that they can't find identifier x for c, c++, java.
+Since we didn't declare x at each line so we got an error that they can't find identifier x for c, c++, java.
